@@ -1,16 +1,24 @@
 <!DOCTYPE HTML>
+
 <html>
+
+<head>
+    <script src="script.js"></script>
+</head>
 
 <body>
 
-  <p>Before the script...</p>
+    <p>Before the script...</p>
+    <script>
+    alert('Hello, world!1');
+    </script>
+    <p>...After the script.</p>
 
-  <script>
-    alert( 'Hello, world!' );
-  </script>
 
-  <p>...After the script.</p>
-
+    <script>window.onload = function () {
+            alert('Hello, world!2');
+        }
+    </script>
 </body>
 
 </html>
